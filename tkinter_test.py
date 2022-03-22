@@ -46,6 +46,7 @@ def crawStock():
      for i in range(len(closing_price_values[4])):
           closing_price_price.append(float(closing_price_values[4][i][6]))
           closing_price_date.append(closing_price_values[4][i][0])
+          i +=1 
      
      #公司名
      stock = closing_price_values[2].split(' ',3)  
@@ -134,6 +135,7 @@ def main():
           
 
      background.mainloop()
+
 
 
 

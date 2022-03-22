@@ -31,3 +31,12 @@ main()
 
 ![image](./pic/pic2.png)
 
+
+
+# 打包
+
+## pyinstaller 
+
+- 問題
+OSError: Python library not found: Python3, Python, libpython3.8.dylib, .Python, libpython3.8m.dylib
+解決：https://www.wandouip.com/t5i295394/
